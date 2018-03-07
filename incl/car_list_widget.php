@@ -137,7 +137,7 @@ class piston_car_model_list_widget extends WP_Widget {
            $seriesname = $term_obj[0]->name;
            $seriesslug = $term_obj[0]->slug;
            $count = $term_obj[0]->count;
-           $url = get_site_url().'?ct_make='.$makeslug.'&ct_model='.$modelslug.'&Car_Series='.$seriesslug.'&search-listings=true';
+           $url = get_site_url().'/?ct_make='.$makeslug.'&ct_model='.$modelslug.'&Car_Series='.$seriesslug.'&search-listings=true';
                     
            $list = '<li>';
            $list .= '<a href="'. $url .'">';
